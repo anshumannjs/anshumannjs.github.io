@@ -5,46 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #populate{
-            display: inline-block;
-        }
-        #clear{
-            display: inline-block;
-        }
-    </style>
+    <link rel="stylesheet" href="news.css">
 </head>
 <body>
-    <div>
-        <h3>
-            your eneterd word is 
-            <!-- <h2>example</h2> -->
-            <input type="search" name="" id="search">
-            to know definitons click the populate button
-        </h3>
+    <div id="navbar">
+        <input id="txt" type="text"> <button id="search">Search</button>
     </div>
-    <div id="populate">
-        <button>populate</button>
-    </div>
-    <div id="clear">
-        <button>clear</button>
-    </div>
-    (before searching next word clear all texts by clicking clear button)
-    <br>
+    <div id="content">
+        <div id="mainHeading">
 
-    <div class="def">
-        <ol id="def">
+        </div>
+        <div id="articleBox">
+            <!-- <div class="articles">
+                <div class="articlePhoto">
+        
+                </div>
+                <div class="articleContent">
+                    <div class="articleHeading">
 
-        </ol>
-    </div>
-    <div id="error">
-        <h4 id="title"></h4>
-        <p id="message1"></p>
-        <br>
-        <p id="message2"></p>
+                    </div>
+                    <div class="articleDes">
+
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+
     </div>
 
 
-    <script src="wordapi.js"></script>
+
+    <script src="news.js"></script>
 </body>
 </html>
