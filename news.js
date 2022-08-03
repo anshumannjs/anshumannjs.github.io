@@ -3,7 +3,7 @@ getNews("India");
 function getNews(news){
     let xhr=new XMLHttpRequest();
     let apiKey="68bee47762d040e294b0b15264fabbdc";
-    xhr.open("GET",`https://newsapi.org/v2/everything?q=${news}&from=2022-07-03&sortBy=publishedAt&apiKey=68bee47762d040e294b0b15264fabbdc
+    xhr.open("GET",`https://newsapi.org/v2/everything?q=${news}&from=2022-07-03&sortBy=publishedAt&apiKey=${apiKey}
     `,true);
     xhr.onprogress=function(){
         console.log("on progress");
