@@ -2,7 +2,8 @@ getNews("India");
 
 function getNews(news){
     let xhr=new XMLHttpRequest();
-    xhr.open("GET",`https://newsapi.org/v2/everything?q=${news} &from=2022-07-02&sortBy=publishedAt&apiKey=68bee47762d040e294b0b15264fabbdc
+    let apiKey="68bee47762d040e294b0b15264fabbdc";
+    xhr.open("GET",`https://newsapi.org/v2/everything?q=${news}&from=2022-07-03&sortBy=publishedAt&apiKey=68bee47762d040e294b0b15264fabbdc
     `,true);
     xhr.onprogress=function(){
         console.log("on progress");
@@ -45,6 +46,7 @@ function getNews(news){
             console.log("done");
         }
         else {
+            remove();
             document.getElementById("mainHeading").innerHTML=`<h1>Couldn't find any news on ${news} </h1>`;
         }
         
