@@ -271,12 +271,12 @@ add.addEventListener("click",function (){
         div2.className=value;
         let song=document.getElementById("song").value;
         console.log(song);
-        try{
-            div2.innerHTML=`<source src=${song}>`;
-        }
-        catch{
-            div2.innerHTML=`<source src="y2mate.com - NF  The Search lyrics.mp3">`
-        }
+        // try{
+        //     div2.innerHTML=`<source src=${song}>`;
+        // }
+        // catch{
+        // }
+        div2.innerHTML=`<source src="y2mate.com - NF  The Search lyrics.mp3">`
         div1.append(div2);
         div.append(div1);
 
