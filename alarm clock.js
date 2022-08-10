@@ -276,7 +276,7 @@ add.addEventListener("click",function (){
         // }
         // catch{
         // }
-        div2.innerHTML=`<source src="y2mate.com - NF  The Search lyrics.mp3">`
+        div2.innerHTML=`<source src="NF  The Search lyrics.mp3">`
         div1.append(div2);
         div.append(div1);
 
