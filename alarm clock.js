@@ -269,14 +269,14 @@ add.addEventListener("click",function (){
 
         let div2=document.createElement("audio");
         div2.className=value;
-        let song=document.getElementById("song").value;
-        console.log(song);
-        try{
-            div2.innerHTML=`<source src=${song}>`;
-        }
-        catch{
-            div2.innerHTML=`<source src="y2mate.com - NF  The Search lyrics.mp3">`
-        }
+        // let song=document.getElementById("song").value;
+        // console.log(song);
+        // try{
+        //     div2.innerHTML=`<source src=${song}>`;
+        // }
+        // catch{
+        // }
+        div2.innerHTML=`<source src="y2mate.com - NF  The Search lyrics.mp3">`
         div1.append(div2);
         div.append(div1);
 
