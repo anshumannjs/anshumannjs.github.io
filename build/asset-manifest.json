@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.fc9f1696.css",
+    "main.js": "/my-app/static/js/main.2bcf39e5.js",
+    "static/js/787.8a220983.chunk.js": "/my-app/static/js/787.8a220983.chunk.js",
+    "static/media/3051421.jpeg": "/my-app/static/media/3051421.2c84b37810ee73acd2fa.jpeg",
+    "static/media/Map-Marker-PNG-Pic.png": "/my-app/static/media/Map-Marker-PNG-Pic.b57ce6183cee9dc58fb3.png",
+    "static/media/istockphoto-614316294-612x612.jpg": "/my-app/static/media/istockphoto-614316294-612x612.8b0e31b1980f03bda77c.jpg",
+    "static/media/logo-social.png": "/my-app/static/media/logo-social.07d6adbbfd6ef9cc8e3f.png",
+    "static/media/guy-2616903__340.jpg": "/my-app/static/media/guy-2616903__340.cfd03ae7c3e332537349.jpg",
+    "index.html": "/my-app/index.html",
+    "main.fc9f1696.css.map": "/my-app/static/css/main.fc9f1696.css.map",
+    "main.2bcf39e5.js.map": "/my-app/static/js/main.2bcf39e5.js.map",
+    "787.8a220983.chunk.js.map": "/my-app/static/js/787.8a220983.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc9f1696.css",
+    "static/js/main.2bcf39e5.js"
+  ]
+}
